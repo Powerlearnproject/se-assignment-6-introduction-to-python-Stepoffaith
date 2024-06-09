@@ -30,4 +30,41 @@ print("Hello, World!")
 `print()` is a built-in Python function used to display output to the console. It takes an argument (in this case, the string "Hello, World!") and prints it to the console.
 - `"Hello, World!"`: This is a string literal in Python. A string is a sequence of characters enclosed within single quotes `'` or double quotes `"`.
 
-4. 
+4. int is Whole numbers without a decimal point.
+Float is Numbers with a decimal point or in exponential form.
+Str is Sequences of characters enclosed in single, double, or quotes.
+Booleans Represents True or False.
+Lists: Ordered collections of items enclosed in square brackets.
+Tuples: Ordered, immutable collections enclosed in parentheses.
+Dictionaries: Unordered collections of key-value pairs enclosed in curly braces.
+# Integers
+my_int = 42
+
+# Floating-point numbers
+my_float = 3.14
+
+# Strings
+my_string = "Hello, World!"
+
+# Booleans
+my_bool = True
+
+# Lists
+my_list = [1, 2, 3, 4, 5]
+
+# Tuples
+my_tuple = (10, 20, 30)
+
+# Dictionaries
+my_dict = {"key1": "value1", "key2": "value2"}
+
+# Print out the variables
+print("Integer:", my_int)
+print("Float:", my_float)
+print("String:", my_string)
+print("Boolean:", my_bool)
+print("List:", my_list)
+print("Tuple:", my_tuple)
+print("Dictionary:", my_dict)
+
+5. 
