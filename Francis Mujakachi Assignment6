@@ -165,4 +165,12 @@ finally:
 
 # The program will continue to execute after the try-except block
 
-9. 
+9. In Python, modules are files containing Python code that define functions, classes, and variables. A package is a collection of modules structured in a folder hierarchy. It allows you to organize modules into subpackages for better organization and reusability.
+
+import math
+
+# Using functions from the math module
+print(math.sqrt(16))  # Output: 4.0
+print(math.pi)        # Output: 3.141592653589793
+
+10. 
