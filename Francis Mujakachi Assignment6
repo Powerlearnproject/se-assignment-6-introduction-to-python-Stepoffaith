@@ -23,4 +23,11 @@ Create a Virtual Environment
 Navigate to the directory where you want to create your project folder.
 Run the command `virtualenv venv` to create a new virtual environment named "venv".
 
-2. 
+3.
+print("Hello, World!")
+
+
+`print()` is a built-in Python function used to display output to the console. It takes an argument (in this case, the string "Hello, World!") and prints it to the console.
+- `"Hello, World!"`: This is a string literal in Python. A string is a sequence of characters enclosed within single quotes `'` or double quotes `"`.
+
+4. 
