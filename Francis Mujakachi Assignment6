@@ -173,4 +173,28 @@ import math
 print(math.sqrt(16))  # Output: 4.0
 print(math.pi)        # Output: 3.141592653589793
 
-10. 
+10. file_path = 'sample.txt'
+
+try:
+    with open(file_path, 'r') as file:
+        content = file.read()
+        print(content)
+except FileNotFoundError:
+    print(f"File '{file_path}' not found.")
+except Exception as e:
+    print("An error occurred:", e)
+
+
+# Writing a list of strings to a file
+
+output_file = 'output.txt'
+lines = ['Hello', 'World', 'Python', 'Files']
+
+try:
+    with open(output_file, 'w') as file:
+        for line in lines:
+            file.write(line + '\n')
+    print(f"List of strings written to '{output_file}'.")
+except Exception as e:
+    print("An error occurred while writing to the file:", e)
+
