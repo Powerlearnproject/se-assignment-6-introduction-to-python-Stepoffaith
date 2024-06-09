@@ -9,6 +9,7 @@ Data Science and Machine Learning
 Automation and Scripting
 Software Development
 Prototyping
+
 2. Steps to install Python on Windows and set up a virtual environment:
 Download Python for windows and choose between 32-bit or 64-bit. 
 Run the Python Installer
@@ -89,4 +90,53 @@ def add_numbers(a, b):
 result = add_numbers(5, 3)
 print(result)  # Output: 8
 
-7. 
+7. Lists are ordered collections of items where each item has an index associated with it.
+- Lists are defined using square brackets `[]` and can contain elements of any data type.
+
+2. Dictionaries are unordered collections of key-value pairs.
+They are defined using curly braces `{}` and consist of keys and values separated by a colon.
+- Values in a dictionary are accessed using their corresponding keys, not by index.
+- Dictionaries are mutable like lists.
+
+# Creating a list of numbers
+numbers_list = [1, 2, 3, 4, 5]
+
+# Creating a dictionary with key-value pairs
+my_dict = {
+    "name": "Alice",
+    "age": 30,
+    "city": "New York"
+}
+
+# Accessing elements in the list
+print("List:")
+for num in numbers_list:
+    print(num)
+
+# Accessing elements in the dictionary
+print("\nDictionary:")
+for key, value in my_dict.items():
+    print(f"{key}: {value}")
+
+# Modifying list
+numbers_list.append(6)
+print("\nList after appending element:")
+print(numbers_list)
+
+# Modifying dictionary
+my_dict["age"] = 31
+print("\nDictionary after updating age:")
+print(my_dict)
+
+# Removing element from list
+numbers_list.remove(3)
+print("\nList after removing element:")
+print(numbers_list)
+
+# Removing key from dictionary
+del my_dict["city"]
+print("\nDictionary after deleting key 'city':")
+print(my_dict)
+
+
+8.
