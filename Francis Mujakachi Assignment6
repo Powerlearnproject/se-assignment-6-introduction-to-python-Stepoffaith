@@ -9,4 +9,18 @@ Data Science and Machine Learning
 Automation and Scripting
 Software Development
 Prototyping
+2. Steps to install Python on Windows and set up a virtual environment:
+Download Python for windows and choose between 32-bit or 64-bit. 
+Run the Python Installer
+Check the box that says "Add Python to PATH" during the installation process.
+   - Click on the "Install Now" button to start the installation process. 
+Verify Python Installation
+Open the Command Prompt by searching for "cmd" in the Windows search bar and clicking on the Command Prompt app.
+Type `python --version` in the Command Prompt and press Enter. You should see the Python version number displayed, confirming that Python is successfully installed.
+Set Up a Virtual Environment
+install the virtualenv package by running `pip install virtualenv` in the Command Prompt.
+Create a Virtual Environment
+Navigate to the directory where you want to create your project folder.
+Run the command `virtualenv venv` to create a new virtual environment named "venv".
+
 2. 
