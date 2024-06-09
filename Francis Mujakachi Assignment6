@@ -139,4 +139,30 @@ print("\nDictionary after deleting key 'city':")
 print(my_dict)
 
 
-8.
+8.Exception handling in Python allows you to handle errors or exceptions that occur during the execution of a program. This helps in ensuring that your program does not crash when unexpected issues arise.
+
+try:
+    # Code block where you expect an exception to occur
+    num1 = int(input("Enter a number: "))
+    num2 = int(input("Enter another number: "))
+    result = num1 / num2
+
+except ValueError:
+    # This block will handle a ValueError exception
+    print("Please enter valid numbers.")
+
+except ZeroDivisionError:
+    # This block will handle a ZeroDivisionError exception
+    print("Cannot divide by zero.")
+
+else:
+    # This block will execute if no exceptions occur
+    print("Result: ", result)
+
+finally:
+    # This block will always execute, regardless of whether an exception occurred or not
+    print("Execution completed.")
+
+# The program will continue to execute after the try-except block
+
+9. 
