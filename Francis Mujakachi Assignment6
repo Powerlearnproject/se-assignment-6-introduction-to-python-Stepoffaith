@@ -67,4 +67,19 @@ print("List:", my_list)
 print("Tuple:", my_tuple)
 print("Dictionary:", my_dict)
 
-5. 
+5. In Python, conditional statements are utilized to execute certain code based on a condition being true or false, while loops are used to repeat a block of code multiple times.
+
+num = 10
+
+if num > 0:
+    print("Number is positive")
+else:
+    print("Number is not positive")
+
+# Example of a for loop
+fruits = ["apple", "banana", "cherry"]
+
+for fruit in fruits:
+    print(fruit)
+
+6. 
