@@ -82,4 +82,11 @@ fruits = ["apple", "banana", "cherry"]
 for fruit in fruits:
     print(fruit)
 
-6. 
+6. Functions in Python are reusable blocks of code that perform a specific task. They help in organizing code, reducing redundancy, and improving readability.
+
+def add_numbers(a, b):
+    return a + b
+result = add_numbers(5, 3)
+print(result)  # Output: 8
+
+7. 
